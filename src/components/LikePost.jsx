@@ -9,8 +9,12 @@ export default function LikePost() {
   }
 
   return (
-    <div>
-      <button onClick={handlePostCount}>Like Post {likePostCounter}</button>
-    </div>
+    <>
+      <button 
+      style={
+        { backgroundColor: 'black', color: 'white' }
+        }
+        onClick={handlePostCount}>Like Post {likePostCounter}</button>
+    </>
   )
 }
